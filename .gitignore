@@ -1,0 +1,52 @@
+# General
+*.log
+.DS_Store
+.history
+build-log.txt
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# React Native
+*.jsbundle
+*.bundle
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/app/.cxx/
+android/local.properties
+android/*.keystore
+android/captures/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/.xcode.env.local
+ios/*.xcworkspace
+!ios/*.xcworkspace/xcshareddata/
+ios/*.xcodeproj/project.xcworkspace
+!ios/*.xcodeproj/project.xcworkspace/xcshareddata/
+ios/*.xcodeproj/xcuserdata/
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+__tests__/__snapshots__/
